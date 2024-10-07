@@ -167,7 +167,7 @@ a {
   color: #2e2f42;
 }
 
-.portfolio-card-wraper {
+.portfolio-card-footer {
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
@@ -175,8 +175,10 @@ a {
   width: 360px;
 }
 
-.list-item {
+.team-card {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .advantages-text,
