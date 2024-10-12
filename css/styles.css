@@ -54,7 +54,7 @@ a {
 }
 
 .header {
-  padding: 24px 156px 24px 156px;
+  /*padding: 24px 156px 24px 156px;*/
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -123,25 +123,27 @@ a {
   color: #404bbf;
 }
 
-/* Order section*/
+/* Hero */
 
-.order-section {
+.hero {
   background-color: #2e2f42;
-  padding: 245px 484px 126px 460px;
-  border-top: 33px solid #fff;
+  padding: 188px 0;
+  text-align: center;
 }
 
 .title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
   max-width: 496px;
-  margin-bottom: 86px;
+  margin-bottom: 48px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.order-button {
+.hero-button {
   background: #4d5ae5;
   cursor: pointer;
   line-height: 1.5;
@@ -150,16 +152,14 @@ a {
   font-weight: 500;
 }
 
-.order-button:hover,
-.order-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background: #404bbf;
   cursor: pointer;
 }
 
 .team-section {
   background-color: #f4f4fd;
-  padding-left: 120px;
-  padding-right: 120px;
 }
 
 .team-title,
@@ -167,15 +167,29 @@ a {
   margin-bottom: 72px;
 }
 
-.advantages-section {
-  padding-top: 87px;
-  padding-left: 156px;
-  padding-right: 156px;
-}
-
 .portfolio-section {
   padding-right: 156px;
   padding-left: 156px;
+}
+
+.advantages-wrap,
+.team-wrap {
+  display: flex;
+  gap: 24px;
+}
+
+.portfolio-wrap {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.advantages-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .advantages-subtitle,
@@ -201,7 +215,24 @@ a {
 .team-card {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  width: 264px;
+}
+
+.team-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .advantages-text,
@@ -223,6 +254,8 @@ a {
 .footer {
   background-color: #2e2f42;
   padding: 100px 1020px 100px 156px;
+  /*width: 1440px;
+height: 312px;*/
 }
 
 .logo-studio-footer {
