@@ -167,10 +167,6 @@ a {
   margin-bottom: 72px;
 }
 
-.portfolio-section {
-  padding-right: 156px;
-  padding-left: 156px;
-}
 
 .advantages-wrap,
 .team-wrap {
@@ -253,17 +249,15 @@ a {
 
 .footer {
   background-color: #2e2f42;
-  padding: 100px 1020px 100px 156px;
-  /*width: 1440px;
-height: 312px;*/
+  padding: 100px 0;
 }
 
 .logo-studio-footer {
   color: #f4f4fd;
-  margin-bottom: 16px;
 }
 
 .footer-text {
+  margin-top: 16px;
   color: #f4f4fd;
   width: 264px;
 }
