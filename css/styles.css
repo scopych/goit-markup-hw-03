@@ -66,6 +66,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo .logo-studio {
@@ -79,6 +80,7 @@ a {
 .navigation {
   display: flex;
   gap: 76px;
+  align-items: center;
 }
 
 .navigation-links {
@@ -86,6 +88,7 @@ a {
   gap: 40px;
   justify-content: flex-start;
   align-items: flex-start;
+  padding: 24px 0;
 }
 
 .navigation-link {
@@ -110,6 +113,7 @@ a {
   display: flex;
   gap: 40px;
   justify-content: left;
+  padding: 24px 0;
 }
 
 .contacts-links {
@@ -150,12 +154,30 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
   font-weight: 500;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background: #4d5ae5;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background: #404bbf;
   cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .team-section {
@@ -177,6 +199,7 @@ a {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .advantages-item {
@@ -184,7 +207,7 @@ a {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-subtitle,
@@ -197,6 +220,16 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.advantages-subtitle,
+.team-subtitle,
+.portfolio-subtitle {
+  margin-bottom: 8px;
+}
+
+.team-subtitle {
+  text-align: center;
 }
 
 .portfolio-card-footer {
@@ -227,7 +260,7 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
+  padding: 32px 0;
 }
 
 .advantages-text,
@@ -235,6 +268,10 @@ a {
 .portfolio-text,
 .footer-text {
   letter-spacing: 0.02em;
+}
+
+.team-text {
+  text-align: center;
 }
 
 .advantages-title,
@@ -251,12 +288,16 @@ a {
   padding: 100px 0;
 }
 
+.logo-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .logo-studio-footer {
   color: #f4f4fd;
 }
 
 .footer-text {
-  margin-top: 16px;
   color: #f4f4fd;
   width: 264px;
 }
