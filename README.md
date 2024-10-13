@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Homework 2 for fullstack web developer
+# goit-markup-hw-03
+Homework 3 for fullstack web developer
